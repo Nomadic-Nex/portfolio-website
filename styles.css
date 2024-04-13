@@ -1,21 +1,53 @@
 body {
-    background-color: #1B262C;
-    color: #00ADB5;
+    background-image: linear-gradient(to bottom, #41C9E2, #ACE2E1);
+    color: #1B3C73;
+    margin: 0;
+    padding: 0;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+  
+
+.navbar{
+    background-color: #41C9E2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin: 20px;
+    display: float;
+    align-items: center;
+    border: 1px;
+    border-radius: 50px;
+}
+
+.navbar a{
+    padding: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar a img{
+    height: 50px;
+    border: 1px;
+    border-radius: 100%;
+}
+
+center {
+    margin-top: 100px;
 }
 
 a{
     text-decoration: none;
-    color: #71C9CE;
+    color: #1B3C73;
 }
 
-.navbar{
-    background-color: transparent;
-    padding: 20px;
-    border: 1px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 0px #71C9CE;
+a:hover{
+    color: #222831;
+    box-shadow: 2px #00ADB5;
+    delay: 1s;
 }
 
-.navbar a{
-    padding: 20px;
-}
