@@ -1,0 +1,21 @@
+body {
+    background-color: #1B262C;
+    color: #00ADB5;
+}
+
+a{
+    text-decoration: none;
+    color: #71C9CE;
+}
+
+.navbar{
+    background-color: transparent;
+    padding: 20px;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #71C9CE;
+}
+
+.navbar a{
+    padding: 20px;
+}
